@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "laptop-friendly-bot-executor",
+    "name": "laptop-friendly-bot",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "j4re6h445d",
+    "module": "bot"
+  }
+}
