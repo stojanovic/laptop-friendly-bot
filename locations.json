@@ -1,0 +1,28 @@
+{
+  locations: [
+    {
+      name: "Lemon Chili",
+      slug: "lemon-chili",
+      link: "https://laptopfriendly.co/belgrade/lemon-chili",
+      lat: "44.831192",
+      lng: "20.421297",
+      address: "Kej oslobođenja bb"
+    },
+    {
+      name: "Zaokret",
+      slug: "zaokret",
+      link: "https://laptopfriendly.co/belgrade/zaokret",
+      lat: "44.817199",
+      lng: "20.465540",
+      address: "Cetinjska 15"
+    },
+    {
+      name: "Informbiro Filharmonije",
+      slug: "informbiro-filharmonije",
+      link: "https://laptopfriendly.co/belgrade/informbiro-filharmonije",
+      lat: "44.819045",
+      lng: "20.455812",
+      address: "Studentski trg 11"
+    }
+  ]
+}
