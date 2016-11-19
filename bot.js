@@ -8,33 +8,33 @@ const laptopFriendly = require('./locations.json')
 function mainMenu() {
   return new viberTemplate.Text(`Here's what can I do for you:`)
     .addReplyKeyboard(true)
-      .addKeyboardButton('Help', 'HELP', 3, 1, {
-        BgColor: '#0cdf47'
-      })
-      .addKeyboardButton('About LaptopFriendly', 'ABOUT_LF', 3, 1, {
-        BgColor: '#d9bd6a'
-      })
-      .addKeyboardButton('Slack', 'https://laptopfriendly.co?utm_source=viber_bot&utm_medium=laptopfriendly_website', 3, 1, {
-        BgColor: '#78d4b6'
-      })
-      .addKeyboardButton('Meetup.com', 'https://www.meetup.com/Belgrade-Coworking-Club-by-LaptopFriendly/', 3, 1, {
-        BgColor: '#ed1c40'
-      })
-      .addKeyboardButton('<b>LaptopFriendly Website</b>', 'https://laptopfriendly.co?utm_source=viber_bot&utm_medium=laptopfriendly_website', 3, 1, {
-        BgColor: '#d9bd6a',
+      .addKeyboardButton(`<b>See all locations</b>`, 'LOCATIONS', 6, 2, {
+        TextSize: 'large',
+        BgColor: '#f6d95e',
         BgMediaType: 'picture',
-        BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-buttons-website.png'
+        BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-buttons-all-locations-icons.png'
       })
       .addKeyboardButton('<b>Become a Premium user</b>', 'PREMIUM', 3, 1, {
         BgColor: '#7aa2d3',
         BgMediaType: 'picture',
         BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-buttons-premium.png'
       })
-      .addKeyboardButton(`<b>See all locations</b>`, 'LOCATIONS', 6, 2, {
-        TextSize: 'large',
-        BgColor: '#f6d95e',
+      .addKeyboardButton('<b>LaptopFriendly Website</b>', 'https://laptopfriendly.co?utm_source=viber_bot&utm_medium=laptopfriendly_website', 3, 1, {
+        BgColor: '#d9bd6a',
         BgMediaType: 'picture',
-        BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-buttons-all-locations-icons.png'
+        BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-buttons-website.png'
+      })
+      .addKeyboardButton('Meetup.com', 'https://www.meetup.com/Belgrade-Coworking-Club-by-LaptopFriendly/', 3, 1, {
+        BgColor: '#ed1c40'
+      })
+      .addKeyboardButton('Slack', 'https://laptopfriendly.co?utm_source=viber_bot&utm_medium=laptopfriendly_website', 3, 1, {
+        BgColor: '#78d4b6'
+      })
+      .addKeyboardButton('About LaptopFriendly', 'ABOUT_LF', 3, 1, {
+        BgColor: '#d9bd6a'
+      })
+      .addKeyboardButton('Help', 'HELP', 3, 1, {
+        BgColor: '#0cdf47'
       })
     .get()
 }
@@ -42,18 +42,18 @@ function mainMenu() {
 function showAllCities() {
   return new viberTemplate.Text(`Select a city below or simply share your location`)
     .addReplyKeyboard(true)
-      .addKeyboardButton(`<font color="#FFFFFF"><b>Novi Sad (${laptopFriendly.locations['novi-sad'].length})</b></font>`, 'CITY|novi-sad', 6, 2, {
-        TextSize: 'large',
-        BgColor: '#f6d95e',
-        BgMediaType: 'picture',
-        BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/novi-sad.png'
-      })
       .addKeyboardButton(`<font color="#FFFFFF"><b>Belgrade (${laptopFriendly.locations.belgrade.length})</b></font>`, 'CITY|belgrade', 6, 2, {
         TextSize: 'large',
         BgColor: '#f6d95e',
         BgMediaType: 'picture',
         BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/belgrade.png'
       })
+        .addKeyboardButton(`<font color="#FFFFFF"><b>Novi Sad (${laptopFriendly.locations['novi-sad'].length})</b></font>`, 'CITY|novi-sad', 6, 2, {
+          TextSize: 'large',
+          BgColor: '#f6d95e',
+          BgMediaType: 'picture',
+          BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/novi-sad.png'
+        })
     .get()
 }
 

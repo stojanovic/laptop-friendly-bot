@@ -9,7 +9,7 @@
   "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
   "license": "MIT",
   "dependencies": {
-    "claudia-bot-builder": "git+https://github.com/claudiajs/claudia-bot-builder.git"
+    "claudia-bot-builder": "^2.6.0"
   },
   "devDependencies": {
     "eslint": "^3.10.2",
