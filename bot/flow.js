@@ -1,6 +1,7 @@
 'use strict'
 
 const mainMenu = require('./main-menu')
+const aboutText = require('./about-text')
 const showAllCities = require('./show-all-cities')
 const showAllLocations = require('./show-all-locations')
 const getLocationInfo = require('./get-location-info')
@@ -15,6 +16,9 @@ module.exports = function botFlow(message, originalRequest) {
 
   if (message.text === 'MAIN_MENU')
     return mainMenu()
+
+  if (message.text === 'ABOUT_LF')
+    return aboutText()
 
   if (message.text === 'LOCATIONS')
     return showAllCities()

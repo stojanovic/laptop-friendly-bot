@@ -2,8 +2,8 @@
 
 const viberTemplate = require('claudia-bot-builder').viberTemplate
 
-module.exports = function mainMenu() {
-  return new viberTemplate.Text(`Here's what can I do for you:`)
+module.exports = function mainMenu(text) {
+  return new viberTemplate.Text(text || `Here's what can I do for you:`)
     .addReplyKeyboard(true)
       .addKeyboardButton(`<b>See all locations</b>`, 'LOCATIONS', 6, 2, {
         TextSize: 'large',
