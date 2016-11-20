@@ -5,13 +5,21 @@ const showAllCities = require('./show-all-cities')
 const showAllLocations = require('./show-all-locations')
 const getLocationInfo = require('./get-location-info')
 const getLocationDescription = require('./get-location-description')
+const becomePremiumMember = require('./become-premium-member')
+const isUrl = require('./helpers/is-url')
 
 module.exports = function botFlow(message) {
+  if (isUrl(message.text)) // Do nothing if user sends an url, because it's a reply to an URL button
+    return true
+
   if (message.text === 'MAIN_MENU')
     return mainMenu()
 
   if (message.text === 'LOCATIONS')
     return showAllCities()
+
+  if (message.text === 'PREMIUM')
+    return becomePremiumMember()
 
   if (/^CITY\|[a-z0-9-]{2,}$/.test(message.text)) {
     console.log('city')
