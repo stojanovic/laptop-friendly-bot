@@ -6,5 +6,5 @@ const botFlow = require('./bot/flow')
 module.exports = botBuilder((message, originalRequest) => {
   console.log(message, originalRequest)
 
-  return botFlow(message)
+  return botFlow(message, originalRequest)
 })

@@ -7,8 +7,9 @@ const getLocationInfo = require('./get-location-info')
 const getLocationDescription = require('./get-location-description')
 const becomePremiumMember = require('./become-premium-member')
 const isUrl = require('./helpers/is-url')
+const apiAiQuery = require('./helpers/api-ai')
 
-module.exports = function botFlow(message) {
+module.exports = function botFlow(message, originalRequest) {
   if (isUrl(message.text)) // Do nothing if user sends an url, because it's a reply to an URL button
     return true
 
@@ -36,8 +37,20 @@ module.exports = function botFlow(message) {
     return getLocationDescription(data[1], data[2])
   }
 
-  return [
-    `Hello! I am Laptop Friendly bot`,
-    mainMenu()
-  ]
+  return apiAiQuery(message.text, message.sender, originalRequest.env.apiAi)
+    .then(response => {
+      if (response.action === 'smalltalk.greetings')
+        return [
+          `Hello! I am Laptop Friendly bot`,
+          mainMenu()
+        ]
+
+      return response.reply
+    })
+    .catch(() => {
+      return [
+        `Sorry, I don't understand`,
+        mainMenu()
+      ]
+    })
 }
