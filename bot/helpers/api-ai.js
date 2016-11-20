@@ -15,7 +15,6 @@ module.exports = function apiAiQuery(text, sessionId, token) {
     })
   })
     .then(data => {
-      console.log('Data', data.body)
       let response = JSON.parse(data.body)
       if (!response && typeof response.result !== 'object')
         throw new Error('I do not understand')
