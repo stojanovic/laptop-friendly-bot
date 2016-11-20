@@ -1,0 +1,107 @@
+{
+  "locations": {
+    "belgrade": [
+      {
+        "name": "The Passengers",
+        "slug": "passengers",
+        "link": "https://laptopfriendly.co/belgrade/passengers",
+        "lat": 44.8311,
+        "lng": 20.4212,
+        "address": "Simina 5",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/passengers.png",
+        "description": "Not many places would dare claim to have the best beer and sausages in all of Belgrade. The Passengers Bar, for one, is happy to make their case, and would like to present 12 different varieties of draft beer as Exhibit A, as well as being the only bar in the city serving the renowned Leikeim beer. And as far as their sausages go - everyone’s invited to a taste test!\n\nTucked away in Simina street, behind the Faculty of Sciences, The Passengers is a pub, bar, restaurant, coworking space and a lot more. Apart from the firebrand sausages and quality beer, there’s also a wide selection of coffees, cocktails, snacks as well as various culinary treats. Over 200 years old, the venue itself spans more than 300 square meters and is officially recognized as a cultural monument. Apart from the two floors, there’s also a gorgeous garden that operates all year round.\n\nTrue to its name, the venue walls are decked in various travel motifs - there are drawings of adventurers young and old, swanky business people and big families. And that’s exactly what the guests of The Passengers Bar are - greatly diverse and all equally welcome!"
+      },
+      {
+        "name": "Informbiro Filharmonije",
+        "slug": "informbiro-filharmonije",
+        "link": "https://laptopfriendly.co/belgrade/informbiro-filharmonije",
+        "lat": 44.81904,
+        "lng": 20.45581,
+        "address": "Studentski trg 11",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/informbiro-filharmonije.png",
+        "description": "Located between the Kolarac Institute and Knez Mihajlova street, InformBiro is perfectly tucked away in the heart of the city. The club’s patio is as gorgeous as it is spacious, and the whole venue is enveloped by trees, so in the summer you feel as if you’re somewhere deep in nature. Meanwhile on the inside, an imposing 13 meter-wide old-school bar dominates the interior.\n\nInformBiro offers a wide selection of premium cocktails, vine brands and hard liquor. On the other hand, the club’s terrace is a perfect place to start the morning with a latte art espresso, carefully crafted by professional baristas. As an official club of the Belgrade philharmonic, InformBiro is also a place where you can purchase tickets for various concerts and theater shows."
+      },
+      {
+        "name": "4 Dunje",
+        "slug": "4-dunje",
+        "link": "https://laptopfriendly.co/belgrade/4-dunje",
+        "lat": 44.81904,
+        "lng": 20.45581,
+        "address": "Kneginje Ljubice 16",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/4-dunje.png",
+        "description": "With its imaginative blend of traditional and urban interior, complete with a massive furnace, the atmosphere of 4 Dunje is both charming and homely. As its name (4 Melons) suggests, you’ll always find quality homemade schnapps on the menu. Apart from that, the place serves great filtered coffee served with turkish delight, and offers a large selection of beers and other alcoholic and nonalcoholic beverages. During the day you’ll be treated to quality funk and jazz tunes, while the evening hours are dedicated to live acoustic performances, scheduled for every other day. Spacious and cozy, the place is great to work and relax, and the cheerful staff will keep you coming back."
+      },
+      {
+        "name": "Dzak",
+        "slug": "dzak",
+        "link": "https://laptopfriendly.co/belgrade/dzak",
+        "lat": 44.81904,
+        "lng": 20.45581,
+        "address": "Požarevačka 8 (Tomaša Ježa)",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/dzak.png",
+        "description": "Tucked away from the traffic jam - below the Kalenic market and above the Boulevard, is Dzak bar. Conceived with lots of love, knowledge and enthusiasm, the venue is on a mission to provide all coffee lovers (100% arabica) with a positive and carefree environment to fully enjoy their cup of Joe in. \n\nWhat distinguished Dzak bar is its warm atmosphere and an inventive interior, inspired by the search for raw materials in an urban environment. Here you’ll find traditional and old-school motifs combined with contemporary art exhibits by the local artists, which often sell their works here. \n\nYour daily enjoyment at Dzak bar is complete with an unimposing mixture of various music genres. Our coffee is where it’s at, and there’s always a parking spot nearby. Welcome!"
+      },
+      {
+        "name": "Pretty ballerinas i kafica",
+        "slug": "prettyballerinas",
+        "link": "https://laptopfriendly.co/belgrade/prettyballerinas",
+        "lat": 44.81904,
+        "lng": 20.45581,
+        "address": "Zmaj Od Noćaja 16",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/prettyballerinas.png",
+        "description": "A secluded venue in the heart of the city, Pretty Balletinas is a coffee shop with no shortage of creativity. Here you can hide away from the city buzz and tend to your most important projects, both personal and work-related. All of that and more over our renowned coffee, fresh juices or even a glass of wine.\n\nPretty Balletinas prides itself with a unique concept and an unorthodox ambient, which welcomes new ideas and creative thought. Delight in the venue’s pleasant demeanor, courteous staff and one-of-a-kind surrounding!"
+      },
+      {
+        "name": "Nixon",
+        "slug": "nixon",
+        "link": "https://laptopfriendly.co/belgrade/nixon",
+        "lat": 44.81904,
+        "lng": 20.45581,
+        "address": "Mišarska 7",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/nixon.png",
+        "description": "Nixon is a cafe with a homely atmosphere, friendly staff and superb music choice. The laid-back ambient is complemented by an original drink selection as well as a whimsical interior. With an offbeat variety of Nixon motifs, Warhol replicas and retro murals, the venue is simultaneously modern and joyfully nostalgic. Nixon is home to good folk, with few accidental passerbys. Swing by and see for yourself!"
+      },
+      {
+        "name": "Vespiccolo",
+        "slug": "vespiccolo",
+        "link": "https://laptopfriendly.co/belgrade/vespiccolo",
+        "lat": 44.8311,
+        "lng": 20.4212,
+        "address": "Cetinjska 15",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/vespiccolo.png",
+        "description": "Founders of the Vespiccolo bar are real true fans and enthusiasts of Vespa who have in recent years traveled most of Europe and know how much for one person means to have freedom of movement, working and living.\n\nTheir experiences and feelings of independence and commitment they want to convey to the freelance community because they are the ones who understand what it means to be self-sustaining without the constraints, limitations and immobility.\n\nA modest, comfortable, pleasant space with the necessary infrastructure is all that is needed to create small miracles. We hope that you will be able in our café and with us to find your own driving force and inspiration."
+      },
+      {
+        "name": "Reka",
+        "slug": "reka",
+        "link": "https://laptopfriendly.co/belgrade/reka",
+        "lat": 44.8311,
+        "lng": 20.4212,
+        "address": "Kej oslobođenja 73b",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/reka.png",
+        "description": "Reka Restaurant is located on the Danube and during day it offers a calm environment for work, enriched with clear views to the other shore, broad sky, powerful river, the unique brightness and an abundance of colors that change as the day progresses. \n\nOur garden resembles a park, our terrace - deck of a ship, and the interior is decorated with art paintings and handmade lamps. High-quality and diverse offer of coffee and tea is always at easy reach. \n\nIn case of a need for lunch, various dishes from our menu are available throughout the afternoon. And all these ingredients ensembled together make a perfect recipe for an ideal working day!"
+      },
+      {
+        "name": "Lemon Chili",
+        "slug": "lemon-chili",
+        "link": "https://laptopfriendly.co/belgrade/lemon-chili",
+        "lat": 44.8311,
+        "lng": 20.4212,
+        "address": "Kej oslobođenja bb",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/lemon-chili.png",
+        "description": "Lemon Chili is a raft situated on the Danube river, with an easy going and inspirational atmosphere. Lounge music, coupled with a beautiful view of the riverside will surely take away your everyday worries and help you focus on your productivity, while being stress-free.\n\nIts vision is to become the favorite spot for the positive, young and creative crowd. Modern open-space concept, alongside with the amazing coffee and food selection, are just some of the things that make Lemon Chili a unique spot to spend you workday at."
+      },
+      {
+        "name": "Zaokret",
+        "slug": "zaokret",
+        "link": "https://laptopfriendly.co/belgrade/zaokret",
+        "lat": 44.817199,
+        "lng": 20.465540,
+        "address": "Cetinjska 15",
+        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/zaokret.png",
+        "description": "With its unique charm and a laid-back vibe, Zaokret has quickly positioned itself as a natural choice for numerous visitors of the newly-established Cetinjska ‘distrikt’. Long tables, thematic art, quirky lamps, unique bar design and a small stage - all that makes Zaokret’s guests feel close and connected, as if they’re at a house party. Much like the cafe itself, the music selection is vivid and colorful - from the ‘forgotten tunes’ to the acousting and DJ performances of (more and less) popular musicians. \n\nThere’s a large community table - a dedicated work area during the day, for all those that want to take on their projects in a pleasant environment. As far as drinks go, what stands out is a wide selection of bottled and draft beer, as well as various styles of high-quality Java coffee. Zaokret’s goal is not exclusivity - it’s non-negotiable quality, and the affordability of everything served."
+      }
+    ],
+    "novi-sad": []
+  }
+}
