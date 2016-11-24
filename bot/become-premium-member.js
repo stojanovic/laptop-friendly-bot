@@ -9,10 +9,12 @@ module.exports = function becomePremiumMember() {
     'For a monthly fee, Premium members get to enjoy additional perks added to each daily deal, gain access to exclusive LaptopFriendly venues and much more!',
     `Here's what you get as basic and premium member:`,
     new viberTemplate.Photo('https://s3.eu-central-1.amazonaws.com/laptopfriendly/perks.png', 'Basic vs Premium membership')
-      .addReplyKeyboard(true)
+      .addReplyKeyboard(false)
         .addKeyboardButton(`<font color="#FFFFFF"><b>More info about Premium membership</b></font>`, `https://laptopfriendly.co/en/membership`, 6, 2, {
           TextSize: 'large',
-          BgColor: '#f6d95e'
+          BgColor: '#f6d95e',
+          BgMediaType: 'picture',
+          BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-dark-covered-drinks.jpg'
         })
         .addKeyboardButton(`<font color="#FFFFFF"><b>Back</b></font>`, `MAIN_MENU`, 6, 1, {
           TextSize: 'large',

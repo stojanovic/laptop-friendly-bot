@@ -7,4 +7,6 @@ module.exports = botBuilder((message, originalRequest) => {
   console.log(message, originalRequest)
 
   return botFlow(message, originalRequest)
+}, {
+  platforms: ['viber']
 })

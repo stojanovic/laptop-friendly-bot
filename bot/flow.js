@@ -2,9 +2,11 @@
 
 const mainMenu = require('./main-menu')
 const aboutText = require('./about-text')
+const help = require('./help')
 const showAllCities = require('./show-all-cities')
 const showAllLocations = require('./show-all-locations')
 const getLocationInfo = require('./get-location-info')
+const getLocationPrices = require('./get-location-prices')
 const getLocationDescription = require('./get-location-description')
 const becomePremiumMember = require('./become-premium-member')
 const isUrl = require('./helpers/is-url')
@@ -26,6 +28,9 @@ module.exports = function botFlow(message, originalRequest) {
   if (message.text === 'PREMIUM')
     return becomePremiumMember()
 
+  if (message.text === 'HELP')
+    return help()
+
   if (/^CITY\|[a-z0-9-]{2,}$/.test(message.text)) {
     console.log('city')
     return showAllLocations(message.text.replace('CITY|', ''))
@@ -39,6 +44,11 @@ module.exports = function botFlow(message, originalRequest) {
   if (/^INFO\|[a-z0-9-]{2,}\|[a-z0-9-]{2,}$/.test(message.text)) {
     let data = message.text.split('|')
     return getLocationDescription(data[1], data[2])
+  }
+
+  if (/^PRICE\|[a-z0-9-]{2,}\|[a-z0-9-]{2,}$/.test(message.text)) {
+    let data = message.text.split('|')
+    return getLocationPrices(data[1], data[2])
   }
 
   return apiAiQuery(message.text, message.sender, originalRequest.env.apiAi)

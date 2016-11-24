@@ -1,9 +1,16 @@
 'use strict'
 
 const viberTemplate = require('claudia-bot-builder').viberTemplate
+const mainMenu = require('./main-menu')
 const laptopFriendly = require('../data/laptopfriendly.json')
 
 module.exports = function showAllLocations(city) {
+  if (!laptopFriendly.locations[city].length)
+    return [
+      `Novi Sad is coming soon :)`,
+      mainMenu(`Here's what can I do for you in the meantime:`)
+    ]
+
   var template = new viberTemplate.Text(`There's ${laptopFriendly.locations[city].length} laptopfriendly locations in Belgrade!`)
     .addReplyKeyboard(true)
 

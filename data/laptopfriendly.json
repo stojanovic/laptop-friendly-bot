@@ -5,8 +5,8 @@
         "name": "The Passengers",
         "slug": "passengers",
         "link": "https://laptopfriendly.co/belgrade/passengers",
-        "lat": 44.8311,
-        "lng": 20.4212,
+        "lat": 44.820336,
+        "lng": 20.459017,
         "address": "Simina 5",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/passengers.png",
         "description": [
@@ -15,16 +15,24 @@
           "True to its name, the venue walls are decked in various travel motifs - there are drawings of adventurers young and old, swanky business people and big families. And that's exactly what the guests of The Passengers Bar are - greatly diverse and all equally welcome!"
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 550 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor area",
+          "Food",
+          "Natural light"
         ]
       },
       {
         "name": "Informbiro Filharmonije",
         "slug": "informbiro-filharmonije",
         "link": "https://laptopfriendly.co/belgrade/informbiro-filharmonije",
-        "lat": 44.81904,
-        "lng": 20.45581,
+        "lat": 44.819045,
+        "lng": 20.455812,
         "address": "Studentski trg 11",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/informbiro-filharmonije.png",
         "description": [
@@ -32,24 +40,38 @@
           "InformBiro offers a wide selection of premium cocktails, vine brands and hard liquor. On the other hand, the club's terrace is a perfect place to start the morning with a latte art espresso, carefully crafted by professional baristas. As an official club of the Belgrade philharmonic, InformBiro is also a place where you can purchase tickets for various concerts and theater shows."
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 500 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor area",
+          "Natural light"
         ]
       },
       {
         "name": "4 Dunje",
         "slug": "4-dunje",
         "link": "https://laptopfriendly.co/belgrade/4-dunje",
-        "lat": 44.81904,
-        "lng": 20.45581,
+        "lat": 44.81936,
+        "lng": 20.461442,
         "address": "Kneginje Ljubice 16",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/4-dunje.png",
         "description": [
           "With its imaginative blend of traditional and urban interior, complete with a massive furnace, the atmosphere of 4 Dunje is both charming and homely. As its name (4 Melons) suggests, you'll always find quality homemade schnapps on the menu. Apart from that, the place serves great filtered coffee served with turkish delight, and offers a large selection of beers and other alcoholic and nonalcoholic beverages. During the day you'll be treated to quality funk and jazz tunes, while the evening hours are dedicated to live acoustic performances, scheduled for every other day. Spacious and cozy, the place is great to work and relax, and the cheerful staff will keep you coming back."
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 500 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor",
+          "Food"
         ]
       },
       {
@@ -58,7 +80,7 @@
         "link": "https://laptopfriendly.co/belgrade/dzak",
         "lat": 44.81904,
         "lng": 20.45581,
-        "address": "Požarevačka 8 (Tomaša Ježa)",
+        "address": "Pozarevacka 8 (Tomasa Jeza)",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/dzak.png",
         "description": [
           "Tucked away from the traffic jam - below the Kalenic market and above the Boulevard, is Dzak bar. Conceived with lots of love, knowledge and enthusiasm, the venue is on a mission to provide all coffee lovers (100% arabica) with a positive and carefree environment to fully enjoy their cup of Joe in. ",
@@ -66,49 +88,67 @@
           "Your daily enjoyment at Dzak bar is complete with an unimposing mixture of various music genres. Our coffee is where it's at, and there's always a parking spot nearby. Welcome!"
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 500 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Outdoor",
+          "Natural light"
         ]
       },
       {
-        "name": "Pretty ballerinas i kafica",
+        "name": "Pretty Ballerinas i Kafica",
         "slug": "prettyballerinas",
         "link": "https://laptopfriendly.co/belgrade/prettyballerinas",
-        "lat": 44.81904,
-        "lng": 20.45581,
-        "address": "Zmaj Od Noćaja 16",
+        "lat": 44.820482,
+        "lng": 20.457211,
+        "address": "Zmaj Od Nocaja 16",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/prettyballerinas.png",
         "description": [
           "A secluded venue in the heart of the city, Pretty Balletinas is a coffee shop with no shortage of creativity. Here you can hide away from the city buzz and tend to your most important projects, both personal and work-related. All of that and more over our renowned coffee, fresh juices or even a glass of wine.",
           "Pretty Balletinas prides itself with a unique concept and an unorthodox ambient, which welcomes new ideas and creative thought. Delight in the venue's pleasant demeanor, courteous staff and one-of-a-kind surrounding!"
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 750 RSD",
+          "Half day (4h): 450 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Social table"
         ]
       },
       {
         "name": "Nixon",
         "slug": "nixon",
         "link": "https://laptopfriendly.co/belgrade/nixon",
-        "lat": 44.81904,
-        "lng": 20.45581,
-        "address": "Mišarska 7",
+        "lat": 44.806762,
+        "lng": 20.466562,
+        "address": "Misarska 7",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/nixon.png",
         "description": [
           "Nixon is a cafe with a homely atmosphere, friendly staff and superb music choice. The laid-back ambient is complemented by an original drink selection as well as a whimsical interior. With an offbeat variety of Nixon motifs, Warhol replicas and retro murals, the venue is simultaneously modern and joyfully nostalgic. Nixon is home to good folk, with few accidental passerbys. Swing by and see for yourself!"
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 400 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Outdoor",
+          "Food",
+          "Social table"
         ]
       },
       {
         "name": "Vespiccolo",
         "slug": "vespiccolo",
         "link": "https://laptopfriendly.co/belgrade/vespiccolo",
-        "lat": 44.8311,
-        "lng": 20.4212,
+        "lat": 44.81746,
+        "lng": 20.465418,
         "address": "Cetinjska 15",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/vespiccolo.png",
         "description": [
@@ -117,17 +157,26 @@
           "A modest, comfortable, pleasant space with the necessary infrastructure is all that is needed to create small miracles. We hope that you will be able in our café and with us to find your own driving force and inspiration."
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 400 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor",
+          "Social table",
+          "Parking",
+          "Natural light"
         ]
       },
       {
         "name": "Reka",
         "slug": "reka",
         "link": "https://laptopfriendly.co/belgrade/reka",
-        "lat": 44.8311,
-        "lng": 20.4212,
-        "address": "Kej oslobođenja 73b",
+        "lat": 44.849129,
+        "lng": 20.411288,
+        "address": "Kej oslobodjenja 73b",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/reka.png",
         "description": [
           "Reka Restaurant is located on the Danube and during day it offers a calm environment for work, enriched with clear views to the other shore, broad sky, powerful river, the unique brightness and an abundance of colors that change as the day progresses. ",
@@ -135,25 +184,42 @@
           "In case of a need for lunch, various dishes from our menu are available throughout the afternoon. And all these ingredients ensembled together make a perfect recipe for an ideal working day!"
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 500 RSD"
+        ],
+        "amenities": [
+          "Pet friendly",
+          "Credit card",
+          "Outdoor",
+          "Food",
+          "Natural light"
         ]
       },
       {
         "name": "Lemon Chili",
         "slug": "lemon-chili",
         "link": "https://laptopfriendly.co/belgrade/lemon-chili",
-        "lat": 44.8311,
-        "lng": 20.4212,
-        "address": "Kej oslobođenja bb",
+        "lat": 44.831192,
+        "lng": 20.421297,
+        "address": "Kej oslobodjenja bb",
         "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/lemon-chili.png",
         "description": [
           "Lemon Chili is a raft situated on the Danube river, with an easy going and inspirational atmosphere. Lounge music, coupled with a beautiful view of the riverside will surely take away your everyday worries and help you focus on your productivity, while being stress-free.",
           "Its vision is to become the favorite spot for the positive, young and creative crowd. Modern open-space concept, alongside with the amazing coffee and food selection, are just some of the things that make Lemon Chili a unique spot to spend you workday at."
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 700 RSD",
+          "Half day (4h): 500 RSD"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor",
+          "Food",
+          "Social table",
+          "Parking",
+          "Natural light"
         ]
       },
       {
@@ -169,8 +235,17 @@
           "There's a large community table - a dedicated work area during the day, for all those that want to take on their projects in a pleasant environment. As far as drinks go, what stands out is a wide selection of bottled and draft beer, as well as various styles of high-quality Java coffee. Zaokret's goal is not exclusivity - it's non-negotiable quality, and the affordability of everything served."
         ],
         "prices": [
-          "Full day (8h) 700 RSD",
-          "Half day (4h)550 RSD"
+          "Full day (8h): 400 RSD",
+          "Half day (4h): /"
+        ],
+        "amenities": [
+          "A/C",
+          "Pet friendly",
+          "Credit card",
+          "Outdoor",
+          "Social table",
+          "Parking",
+          "Natural light"
         ]
       }
     ],
