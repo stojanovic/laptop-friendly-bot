@@ -9,6 +9,7 @@ const getLocationInfo = require('./get-location-info')
 const getLocationPrices = require('./get-location-prices')
 const getLocationDescription = require('./get-location-description')
 const becomePremiumMember = require('./become-premium-member')
+const closestTo = require('./closest-to')
 const isUrl = require('./helpers/is-url')
 const apiAiQuery = require('./helpers/api-ai')
 
@@ -49,6 +50,10 @@ module.exports = function botFlow(message, originalRequest) {
   if (/^PRICE\|[a-z0-9-]{2,}\|[a-z0-9-]{2,}$/.test(message.text)) {
     let data = message.text.split('|')
     return getLocationPrices(data[1], data[2])
+  }
+
+  if (!message.text && message.originalRequest.message.type === 'location') {
+    return closestTo(message.originalRequest.message.location)
   }
 
   return apiAiQuery(message.text, message.sender, originalRequest.env.apiAi)
