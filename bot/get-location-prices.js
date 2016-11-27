@@ -2,7 +2,6 @@
 
 const viberTemplate = require('claudia-bot-builder').viberTemplate
 const laptopFriendly = require('../data/laptopfriendly.json')
-// const jsesc = require('jsesc')
 
 module.exports = function getLocationInfo(city, slug) {
   var location = laptopFriendly.locations[city].find(location => location.slug === slug)
