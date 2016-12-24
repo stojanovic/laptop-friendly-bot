@@ -16,7 +16,7 @@ module.exports = function mainMenu(text) {
         BgMediaType: 'picture',
         BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-dark-covered-drinks.jpg'
       })
-      .addKeyboardButton('<font color="#FFFFFF"><b>LaptopFriendly Website</b></font>', 'https://laptopfriendly.co?utm_source=viber_bot&utm_medium=laptopfriendly_website', 3, 1, {
+      .addKeyboardButton('<font color="#FFFFFF"><b>LaptopFriendly Website</b></font>', 'https://laptopfriendly.co', 3, 1, {
         BgColor: '#d9bd6a',
         BgMediaType: 'picture',
         BgMedia: 'https://s3.eu-central-1.amazonaws.com/laptopfriendly/lf-dark-vibrant-workspace.jpg'

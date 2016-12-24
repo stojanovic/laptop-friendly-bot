@@ -28,30 +28,6 @@
         ]
       },
       {
-        "name": "Informbiro Filharmonije",
-        "slug": "informbiro-filharmonije",
-        "link": "https://laptopfriendly.co/belgrade/informbiro-filharmonije",
-        "lat": 44.819045,
-        "lng": 20.455812,
-        "address": "Studentski trg 11",
-        "thumbnail": "https://s3.eu-central-1.amazonaws.com/laptopfriendly/places/informbiro-filharmonije.png",
-        "description": [
-          "Located between the Kolarac Institute and Knez Mihajlova street, InformBiro is perfectly tucked away in the heart of the city. The club's patio is as gorgeous as it is spacious, and the whole venue is enveloped by trees, so in the summer you feel as if you're somewhere deep in nature. Meanwhile on the inside, an imposing 13 meter-wide old-school bar dominates the interior.",
-          "InformBiro offers a wide selection of premium cocktails, vine brands and hard liquor. On the other hand, the club's terrace is a perfect place to start the morning with a latte art espresso, carefully crafted by professional baristas. As an official club of the Belgrade philharmonic, InformBiro is also a place where you can purchase tickets for various concerts and theater shows."
-        ],
-        "prices": [
-          "Full day (8h): 700 RSD",
-          "Half day (4h): 500 RSD"
-        ],
-        "amenities": [
-          "A/C",
-          "Pet friendly",
-          "Credit card",
-          "Outdoor area",
-          "Natural light"
-        ]
-      },
-      {
         "name": "4 Dunje",
         "slug": "4-dunje",
         "link": "https://laptopfriendly.co/belgrade/4-dunje",
