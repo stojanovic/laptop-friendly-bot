@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "update": "claudia update --cache-api-config apiConfig",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",

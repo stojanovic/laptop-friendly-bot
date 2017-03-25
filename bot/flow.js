@@ -32,10 +32,8 @@ module.exports = function botFlow(message, originalRequest) {
   if (message.text === 'HELP')
     return help()
 
-  if (/^CITY\|[a-z0-9-]{2,}$/.test(message.text)) {
-    console.log('city')
+  if (/^CITY\|[a-z0-9-]{2,}$/.test(message.text))
     return showAllLocations(message.text.replace('CITY|', ''))
-  }
 
   if (/^LOCATION\|[a-z0-9-]{2,}\|[a-z0-9-]{2,}$/.test(message.text)) {
     let data = message.text.split('|')
@@ -52,9 +50,8 @@ module.exports = function botFlow(message, originalRequest) {
     return getLocationPrices(data[1], data[2])
   }
 
-  if (!message.text && message.originalRequest.message.type === 'location') {
+  if (!message.text && message.originalRequest.message.type === 'location')
     return closestTo(message.originalRequest.message.location)
-  }
 
   return apiAiQuery(message.text, message.sender, originalRequest.env.apiAi)
     .then(response => {
